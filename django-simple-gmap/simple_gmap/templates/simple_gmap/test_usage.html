@@ -1,0 +1,18 @@
+{% load simple_gmap_tags %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <title>Django Simple GMap Test</title>
+  {% gmap_init 13.940823 121.163281 %}
+</head>
+<body>
+  <div>
+    <input id="gmap-text-input" type="text" placeholder="" value="">
+  </div>
+  <div>&nbsp;</div>
+  <div>
+    <div id="gmap-canvas-object"></div>
+  </div>
+</body>
+</html>
