@@ -1,16 +1,13 @@
 django-simple-gmap
 ==================
-
 Simple Google Maps Integration For Django
 
 Install
 =======
-
 ``pip install django-simple-gmap``
 
 Usage
 =====
-
 Setting things up:
 
 - Add ``simple_gmap`` to ``INSTALLED_APPS``
@@ -21,8 +18,8 @@ Setting things up:
 
 Example Template
 ================
-
 ::
+
     {% load simple_gmap_tags %}
     <!DOCTYPE html>
     <html lang="en">
